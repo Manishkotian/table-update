@@ -9,7 +9,7 @@
     "server": "cd server && npm start",
     "clientInstall": "cd client && npm install",
     "serverInstall": "cd server && npm install",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
     "installDependencies": "concurrently \"npm run serverInstall\" \"npm run clientInstall\""
   },
   "keywords": [],
