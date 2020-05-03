@@ -1,0 +1,33 @@
+.header {
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-fields {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.field {
+    width: 45%;
+}
+
+.field .MuiTextField-root {
+    width: 100%;
+}
+
+.error-text {
+    color: red !important;
+    font-size: 12px;
+}
+
+.file-upload-button {
+    width: 20%;
+}

@@ -1,0 +1,37 @@
+.file-upload {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    align-self: center;
+    width: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.drag-container {
+    border: dashed grey 4px;
+    background-color: rgba(255,255,255,.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: grey;
+    font-size: 36;
+}
+
+.drag-text {
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+}

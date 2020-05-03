@@ -1,0 +1,8 @@
+.base-layout {
+    min-height: 100vh;
+    background-color: #eceae8;
+}
+
+.table-view {
+    margin-top: 50px;
+}
