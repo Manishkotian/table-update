@@ -21,3 +21,6 @@ Run the command
 
 Run the command
  ### `npm start`
+
+Note: 
+To upload file select `sample.txt` in root folder

@@ -4,14 +4,11 @@ import { Dialog, DialogTitle } from '@material-ui/core'
 import './error-dialog.component.css'
 
 class ErrorDialog extends Component {
-  constructor (props) {
-		super(props)
-	}
-
   render() {
 		const { errorMessage } = this.props
 		return (
-				<Dialog onClose={() => this.props.handleClose()} aria-labelledby="simple-dialog-title" open={true}>
+			<Dialog onClose={() => this.props.handleClose()} aria-labelledby="simple-dialog-title" open={true} 
+			maxWidth='sm' fullWidth>
 				<DialogTitle id="simple-dialog-title">Error</DialogTitle>
 				<div className='error-body'>
 					{errorMessage}
